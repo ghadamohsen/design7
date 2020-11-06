@@ -1,0 +1,224 @@
+body{margin: 0; padding: 0; height: 2500px; font-family: "tahoma";}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+}
+.header .heading{
+    width: 50%;
+    float: left;
+    margin-top: 75px;
+    border-right: 1px solid darkgray;
+}
+.header .heading h2{
+    width: 85%;
+    color: #fff;
+    line-height: 1.8;
+    font-size: 30px;
+}
+.header .heading h2 span:hover{color: #00bcba; cursor: pointer;}
+.header .lorem{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 75px;
+}
+.header .lorem p{
+    color: darkgray;
+    line-height: 1.8;
+    font-weight: bold;
+}
+.header .lorem button{
+    border: 0;
+    background-color: #00bcba;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    width: 180px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+}
+/* section Magna */
+.magna{
+    width: 100%;
+    height: 300px;
+    border-bottom: 2px solid #ddd;
+    margin-top: 50px;
+}
+.magna .learn{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+.magna .learn h2{
+    color: #777;
+    text-transform: uppercase;
+    
+}
+.magna .learn p{
+    line-height: 1.8;
+    color: #888;
+    padding-right: 40px;
+}
+.magna .learn button{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #888;
+    padding: 15px;
+    border-radius: 50px;
+    width: 180px;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: 0;
+}
+.magna .learn button:hover{
+    background-color: #00bcba;
+    color: #fff;
+}
+.magna .ipsum{
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+    visibility: hidden;
+}
+.magna .ipsum p{
+    line-height: 1.8;
+    font-weight: bold;
+    color: #666;
+}
+.ipsum i{
+    color: #00bcba;
+    padding-right: 10px;
+}
+/* pharetra */
+.pharetra{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+.pharetra .part{
+    border-bottom: 2px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.pharetra .part img{
+    float: left;
+    width: 40%;
+}
+.pharetra .part .he{
+    float: left;
+    width: 40%;
+    padding-left: 70px;
+}
+.pharetra .part .he h2{
+   color: #777;
+   text-decoration: underline;
+}
+.pharetra .part .he{
+    color: #888;
+    font-weight: bold;
+    line-height: 1.8;
+ }
+ .pharetra .part .he button{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    width: 180px;
+    color: #777;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: 0;
+    padding: 10px;
+ }
+ .pharetra .part .he button:hover{
+     background: #888;
+     color: #fff;
+ }
+ .pharetra .part .clear{
+     clear: both;
+ }
+/* form */
+.form{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.form .inputs{
+    width: 50%;
+    border-right: 1px solid #ddd;
+    float: left;
+    padding-right: 30px;
+}
+.form .inputs h2{
+    color: #777;
+    text-transform: capitalize;
+}
+.form .inputs p{
+    line-height: 1.8;
+    font-weight: bold;
+    color: #888;
+}
+ .form .inputs input[type=text] ,input[type=email] {
+     width: 250px;
+     height: 50px;
+     padding-left:20px ;
+     margin-bottom:10px ;
+     outline: 0;
+ }
+ .form .inputs textarea{
+     width: 533px;
+     font-size: 16px;
+     padding-left:20px ;
+     padding-top:20px ;
+     outline: 0;
+    }
+ .form .inputs input[type=submit]{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    width: 180px;
+    color: #777;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: 0;
+    padding: 10px;
+    margin-top: 30px;
+ }
+.form .links{
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.form .links p{
+    line-height: 1.8;
+    padding-left: 25px;
+}
+.form .links p i{
+    padding-right: 25px;
+    color: #00bcba;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #f8f4f4;
+    border-top:2px solid #ddd ;
+}
+.footer p{
+    text-align: center;
+    color: #777;
+    line-height: 1.8;
+    padding: 30px;
+}
